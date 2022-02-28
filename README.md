@@ -39,7 +39,7 @@ The Webhook node created based on the configuration.  May have "Trigger On Event
 
 ## Help
 
-If you have any issues are questions you can ask on [PG3 IFTTT Webhooks SubForum](https://forum.universal-devices.com/forum/tbd/) or report an issue at [PG3 IFTT Webook Github issues](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues).
+If you have any issues are questions you can ask on [PG3 IFTTT Webhooks SubForum](https://forum.universal-devices.com/forum/338-ifttt-webhooks/) or report an issue at [PG3 IFTT Webook Github issues](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues).
 
 # Issues
 
