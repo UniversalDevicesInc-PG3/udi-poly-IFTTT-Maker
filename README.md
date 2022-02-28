@@ -1,7 +1,7 @@
 
 # UDI Polyglot V3 IFTTT Webhooks Nodeserver
 
-This is the [IFTTT Webhooks Webhooks](https://ifttt.com/maker_webhooks) Poly for the [Universal Devices Polisy](https://www.universal-devices.com) with [Polyglot Version 3 (PG3)](https://github.com/UniversalDevicesInc/pg3)
+This is the [IFTTT Maker Webhooks](https://ifttt.com/maker_webhooks) Poly for the [Universal Devices Polisy](https://www.universal-devices.com) with [Polyglot Version 3 (PG3)](https://github.com/UniversalDevicesInc/pg3)
 
 (c) JimBo.Automates aka Jim Searle
 MIT license.
