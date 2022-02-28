@@ -11,10 +11,12 @@ MIT license.
 I dislike IFTTT as much as anyone for many reasons, but sometimes it can not be avoided.  This Nodeserver allows you to trigger IFTTT Webook Events from the ISY.
 
 Currently this can be done easily with ISY Network Resources but this method provides many improvements.
+1. Only once place to enter your API Key
 1. Ability to Check for failures
     * Network Problems
     * Authentication Error
     * But, IFTTT doesn't return errors for incorrect event names, so must check the log when creating them
+1. Trigger Nodes On or OFf from a program
 1. Allows the nodes to be placed in a scene
 
 ### Limitations
