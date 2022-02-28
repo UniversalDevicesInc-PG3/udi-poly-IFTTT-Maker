@@ -3,7 +3,7 @@
 
 ## API Key
 
-Enter your API for Webhooks by going to [Webhooks Webhooks](https://ifttt.com/maker_webhooks) then click on Settings.  This shows a line at the bottom like https://maker.ifttt.com/use/xxxxxx the xxxxxx is your API Key.
+Enter your API for Webhooks by going to [Maker Webhooks](https://ifttt.com/maker_webhooks) then click on Settings.  This shows a line at the bottom like https://maker.ifttt.com/use/xxxxxx the xxxxxx is your API Key.
 
 ## Events
 
