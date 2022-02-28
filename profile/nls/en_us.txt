@@ -15,9 +15,9 @@ CST-2 = Failed
 # controller
 ND-Maker1-NAME = IFTTT Maker1 Node
 ND-Maker1-ICON = GenericCtl
-CMD-m1-QUERY-NAME = Query
-CMD-m1-DON-NAME = Trigger On Event
-CMD-m1-DOFF-NAME = Trigger Off Event
+CMD-wh-QUERY-NAME = Query
+CMD-wh-DON-NAME = Trigger On Event
+CMD-wh-DOFF-NAME = Trigger Off Event
 
 # Controller Status
 TST-0 = None

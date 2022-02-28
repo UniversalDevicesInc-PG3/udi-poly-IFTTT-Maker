@@ -1,15 +1,15 @@
 #
-# Maker IFTTT Node
+# Webhook IFTTT Node
 #
 
 from udi_interface import LOGGER
 from nodes import Base
 
-class Maker1(Base):
+class Webhook(Base):
 
     def __init__(self, controller, primary, event):
         # May have different id's in the future?
-        self.id = 'Maker1'
+        self.id = 'Webhook'
         # For now we just call the Base super
         super().__init__(controller, primary, event)
 

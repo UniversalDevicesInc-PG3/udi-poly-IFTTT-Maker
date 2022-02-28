@@ -18,7 +18,7 @@
         </cmds>
     </nodeDef>
 
-    <nodeDef id="Maker1" nls="m1">
+    <nodeDef id="Webhook" nls="wh">
         <editors />
         <sts>
             <st id="ST" editor="tst" />
@@ -30,7 +30,7 @@
         </cmds>
     </nodeDef>
 
-    <nodeDef id="Maker1On" nls="m1">
+    <nodeDef id="WebhookOn" nls="wh">
         <editors />
         <sts>
             <st id="ST" editor="tst" />
@@ -44,7 +44,7 @@
         </cmds>
     </nodeDef>
 
-    <nodeDef id="Maker1Off" nls="m1">
+    <nodeDef id="WebhookOff" nls="wh">
         <editors />
         <sts>
             <st id="ST" editor="tst" />
@@ -57,7 +57,7 @@
         </cmds>
     </nodeDef>
 
-    <nodeDef id="Maker1OnOff" nls="m1">
+    <nodeDef id="WebhookOnOff" nls="wh">
         <editors />
         <sts>
             <st id="ST" editor="tst" />

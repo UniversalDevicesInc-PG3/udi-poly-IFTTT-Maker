@@ -1,5 +1,5 @@
 #
-# IFTTT Maker Base Node
+# IFTTT Webhooks Base Node
 #
 #
 from udi_interface import Node,LOGGER

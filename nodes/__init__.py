@@ -1,5 +1,5 @@
 
-""" Node classes used by the IFTTT Maker Node Server. """
+""" Node classes used by the IFTTT Webhooks Node Server. """
 
 import udi_interface
 
@@ -14,5 +14,5 @@ POST_STATUS = {
     "Other Error": 10,
 }
 from .Base       import Base
-from .Maker1     import Maker1
+from .Webhook    import Webhook
 from .Controller import Controller

@@ -1,10 +1,10 @@
 {
-    "name": "IFTTT-Maker",
+    "name": "IFTTT-Webhooks",
     "docs": "https://github.com/fixme...jimboca/udi-poly-kasa/blob/pg3/README.md",
     "type": "python3",
     "executable": "ifttt-maker.py",
     "install": "install.sh",
-    "description": "IFTTT Maker Node Server",
+    "description": "IFTTT Webhooks Node Server",
     "notice": "Nothing is my fault",
     "shortPoll": "240",
     "longPoll": "240",
@@ -18,7 +18,7 @@
 	},
     "credits": [
         {
-            "title": "IFTTT-Maker: a NodeServer for ISY and IFTTT Maker Integration",
+            "title": "IFTTT-Webhooks: a NodeServer for ISY and IFTTT Webhooks Integration",
             "author": "JimBo.Automates",
             "version": "3.0.0",
             "date": "February 26, 2022",

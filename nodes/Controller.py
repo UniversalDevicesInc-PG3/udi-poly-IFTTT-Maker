@@ -2,7 +2,7 @@
 import logging,requests,markdown2,os
 from udi_interface import Node,LOGGER,Custom,LOG_HANDLER
 from node_funcs import get_valid_node_name
-from nodes import Maker1,POST_STATUS
+from nodes import Webhook,POST_STATUS
 
 class Controller(Node):
 
@@ -28,8 +28,8 @@ class Controller(Node):
             [
                 {
                     'name': 'maker_events',
-                    'title': 'IFTTT Maker Event',
-                    'desc': 'IFTTT Maker Events',
+                    'title': 'IFTTT Webhook Event',
+                    'desc': 'IFTTT Webhook Events',
                     'isList': True,
                     'params': [
                         {
@@ -63,7 +63,7 @@ class Controller(Node):
         self.poly.addNode(self, conn_status='ST')
 
     def handler_start(self):
-        LOGGER.info(f"Started IFTTT Maker NodeServer {self.poly.serverdata['version']}")
+        LOGGER.info(f"Started IFTTT Webhooks NodeServer {self.poly.serverdata['version']}")
         self.update_profile()
         self.heartbeat()
         #self.check_params()
@@ -142,7 +142,7 @@ class Controller(Node):
     def add_maker_events(self):
         LOGGER.debug('enter')
         if len(self.maker_events) == 0:
-            LOGGER.warning("No Maker Events defined in configuration")
+            LOGGER.warning("No Webhook Events defined in configuration")
         else:
             for event in self.maker_events:
                 if 'node_name' in event:
@@ -153,7 +153,7 @@ class Controller(Node):
         LOGGER.debug('exit')
 
     def add_maker_node(self,event):
-        return self.poly.addNode(Maker1(self,self.address,event))
+        return self.poly.addNode(Webhook(self,self.address,event))
 
     def delete(self):
         LOGGER.info('Oh No I\'m being deleted. Nooooooooooooooooooooooooooooooooooooooooo.')

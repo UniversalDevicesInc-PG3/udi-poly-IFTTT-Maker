@@ -15,7 +15,7 @@ def main():
     try:
         polyglot = Interface([Controller])
         polyglot.start()
-        control = Controller(polyglot, 'iftttmkctl', 'iftttmkctl', 'IFTTT Maker Controller')
+        control = Controller(polyglot, 'iftttmkctl', 'iftttmkctl', 'IFTTT Webhooks Controller')
         polyglot.runForever()
     except (KeyboardInterrupt, SystemExit):
         """

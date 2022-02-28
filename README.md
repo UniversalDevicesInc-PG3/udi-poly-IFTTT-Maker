@@ -1,14 +1,14 @@
 
-# UDI Polyglot V3 IFTTT Maker Nodeserver
+# UDI Polyglot V3 IFTTT Webhooks Nodeserver
 
-This is the [IFTTT Maker Webhooks](https://ifttt.com/maker_webhooks) Poly for the [Universal Devices Polisy](https://www.universal-devices.com) with [Polyglot Version 3 (PG3)](https://github.com/UniversalDevicesInc/pg3)
+This is the [IFTTT Webhooks Webhooks](https://ifttt.com/maker_webhooks) Poly for the [Universal Devices Polisy](https://www.universal-devices.com) with [Polyglot Version 3 (PG3)](https://github.com/UniversalDevicesInc/pg3)
 
 (c) JimBo.Automates aka Jim Searle
 MIT license.
 
 ## Reason
 
-I dislike IFTTT as much as anyone for many reasons, but sometimes it can not be avoided.  This Nodeserver allows you to trigger IFTTT Maker Webook Events from the ISY.
+I dislike IFTTT as much as anyone for many reasons, but sometimes it can not be avoided.  This Nodeserver allows you to trigger IFTTT Webook Events from the ISY.
 
 Currently this can be done easily with ISY Network Resources but this method provides many improvements.
 1. Ability to Check for failures
@@ -19,7 +19,7 @@ Currently this can be done easily with ISY Network Resources but this method pro
 
 ### Limitations
 
-It does not allow sending the three Value's that are supported by Maker Events, but this will be added in the future if there is a need.
+It does not allow sending the three Value's that are supported by Webhook Events, but this will be added in the future if there is a need.
 
 It does not retry when there is a failure because you may not want the event to be triggered at a later time, so it's up to the user to handle this within the ISY program.  I may add an option to retry in the future.
 
@@ -33,17 +33,17 @@ The main node which shows status of Nodeserver connection.
 
 The Nodeserver also sends a DON/DOF at every long poll, known as a heartbeat which you can monitor to confirm it is receiving .
 
-### Maker
+### Webhook
 
-The Maker node created based on the configuration.  May have "Trigger On Event" and/or "Trigger Off Event" if the are defined.  See [CONFIGURATION](CONFIGURATION.md).
+The Webhook node created based on the configuration.  May have "Trigger On Event" and/or "Trigger Off Event" if the are defined.  See [CONFIGURATION](CONFIGURATION.md).
 
 ## Help
 
-If you have any issues are questions you can ask on [PG3 IFTTT Maker SubForum](https://forum.universal-devices.com/forum/tbd/) or report an issue at [PG3 Kasa Github issues](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Maker/issues).
+If you have any issues are questions you can ask on [PG3 IFTTT Webhooks SubForum](https://forum.universal-devices.com/forum/tbd/) or report an issue at [PG3 Kasa Github issues](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues).
 
 # Issues
 
-If you have an issue where the nodes are not showing up properly, open the Polyglot UI and go to IFTTT Maker -> Details -> Log, and click 'Download Log Package' and send that to Jimbo.Automates@gmail.com as an email attachment, or send it in a PM [Universal Devices Forum](https://forum.universal-devices.com/messenger)
+If you have an issue where the nodes are not showing up properly, open the Polyglot UI and go to IFTTT Webhooks -> Details -> Log, and click 'Download Log Package' and send that to Jimbo.Automates@gmail.com as an email attachment, or send it in a PM [Universal Devices Forum](https://forum.universal-devices.com/messenger)
 
 ## Installation
 
@@ -52,7 +52,7 @@ This nodeserver will only work on a machine running on your local network, it wi
 1. Backup Your ISY in case of problems!
    * Really, do the backup, please
 2. Go to the Polyglot Store in the UI and install.
-3. Open the admin console (close and re-open if you had it open) and you should see a new node 'IFTTT Maker Controller'
+3. Open the admin console (close and re-open if you had it open) and you should see a new node 'IFTTT Webhooks Controller'
 
 # Upgrading
 
