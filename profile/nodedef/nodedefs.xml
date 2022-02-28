@@ -1,0 +1,74 @@
+<nodeDefs>
+    <!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
+
+    <nodeDef id="IFTTTCntl" nls="ctl">
+        <editors />
+        <sts>
+            <st id="ST" editor="cst" />
+        </sts>
+        <cmds>
+            <sends>
+                <cmd id="DON" />
+                <cmd id="DOF" />
+            </sends>
+            <accepts>
+                <cmd id="QUERY" />
+                <cmd id="UPDATE_PROFILE" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+
+    <nodeDef id="Maker1" nls="m1">
+        <editors />
+        <sts>
+            <st id="ST" editor="tst" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+            </accepts>
+        </cmds>
+    </nodeDef>
+
+    <nodeDef id="Maker1On" nls="m1">
+        <editors />
+        <sts>
+            <st id="ST" editor="tst" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="DON" />
+                <cmd id="DOFF" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+
+    <nodeDef id="Maker1Off" nls="m1">
+        <editors />
+        <sts>
+            <st id="ST" editor="tst" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="DOFF" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+
+    <nodeDef id="Maker1OnOff" nls="m1">
+        <editors />
+        <sts>
+            <st id="ST" editor="tst" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="DON" />
+                <cmd id="DOFF" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+
+</nodeDefs>

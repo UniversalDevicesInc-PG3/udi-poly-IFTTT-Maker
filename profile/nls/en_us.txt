@@ -1,0 +1,40 @@
+
+# controller
+ND-IFTTTCntl-NAME = IFTTT Maker Controller
+ND-IFTTTCntl-ICON = GenericCtl
+CMD-ctl-QUERY-NAME = Query
+CMD-ctl-DISCOVER-NAME = Discover
+CMD-ctl-UPDATE_PROFILE-NAME = Update Profile
+ST-ctl-ST-NAME = NodeServer Online
+
+# Controller Status
+CST-0 = Disconnected
+CST-1 = Connected
+CST-2 = Failed
+
+# controller
+ND-Maker1-NAME = IFTTT Maker1 Node
+ND-Maker1-ICON = GenericCtl
+CMD-m1-QUERY-NAME = Query
+CMD-m1-DON-NAME = Trigger On Event
+CMD-m1-DOFF-NAME = Trigger Off Event
+
+# Controller Status
+TST-0 = None
+TST-1 = Success
+TST-2 = Nework Error
+TST-3 = Request Error
+TST-4 = Invalid Error
+TST-5 = Authentication Error
+TST-6 = Other Error
+
+# All Devices
+ST-ST-NAME = Trigger Status
+
+PGM-CMD-SET_COLOR_RGB-FMT = /R// Red ${v}/ /G// Green ${v}/ /B// Blue ${v}/ /BR// Brightness ${v}/
+
+PGM-CMD-SET_COLOR_XY-FMT = /X// X ${v}/ /Y// Y ${v}/ /BR// Brightness ${v}/
+
+PGM-CMD-SET_HSV-FMT = /H// Hue ${v}/ /S// Saturation ${v}/ /BR// Brightness ${v}/
+
+PGM-CMD-SET_CTBR-FMT =  /K// Color Temperature ${v}/ /BR// Brightness ${v}/
