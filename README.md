@@ -12,9 +12,9 @@ I dislike IFTTT as much as anyone for many reasons, but sometimes it can not be 
 
 Currently this can be done easily with ISY Network Resources but this method provides many improvements.
 1. Ability to Check for failures
-  * Network Problems
-  * Authentication Error
-  * But, IFTTT doesn't return errors for incorrect event names, so must check the log when creating them
+    * Network Problems
+    * Authentication Error
+    * But, IFTTT doesn't return errors for incorrect event names, so must check the log when creating them
 1. Allows the nodes to be placed in a scene
 
 ### Limitations
@@ -39,7 +39,7 @@ The Webhook node created based on the configuration.  May have "Trigger On Event
 
 ## Help
 
-If you have any issues are questions you can ask on [PG3 IFTTT Webhooks SubForum](https://forum.universal-devices.com/forum/tbd/) or report an issue at [PG3 Kasa Github issues](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues).
+If you have any issues are questions you can ask on [PG3 IFTTT Webhooks SubForum](https://forum.universal-devices.com/forum/tbd/) or report an issue at [PG3 IFTT Webook Github issues](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues).
 
 # Issues
 
@@ -56,7 +56,7 @@ This nodeserver will only work on a machine running on your local network, it wi
 
 # Upgrading
 
-Restart the Kasa nodeserver by selecting it in the Polyglot dashboard and select Control -> Restart, then watch the log to make sure everything goes well.
+Restart the Nodeserver by selecting it in the Polyglot dashboard and select Control -> Restart, then watch the log to make sure everything goes well.
 
 # Release Notes
 - 3.0.0: 02/27/2022
