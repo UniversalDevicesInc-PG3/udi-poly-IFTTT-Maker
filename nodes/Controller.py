@@ -137,7 +137,8 @@ class Controller(Node):
         self.maker_events = self.TypedData['maker_events']
         #if self.handler_typed_data_st = True:
         # Not the first run, create any new events
-        self.add_maker_events()
+        if self.maker_events is not None:
+            self.add_maker_events()
         self.handler_type_data_st = True
 
     def add_maker_events(self):
