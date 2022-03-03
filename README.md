@@ -61,5 +61,9 @@ This nodeserver will only work on a machine running on your local network, it wi
 Restart the Nodeserver by selecting it in the Polyglot dashboard and select Control -> Restart, then watch the log to make sure everything goes well.
 
 # Release Notes
+- 3.0.1: 03/02/2022
+  - [Use a better ICON for Maker nodes](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues/1)
+  - [Clear API Key Notice when it's added](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues/2)
+  - [ERROR node:runCmd: command DOFF not defined](https://github.com/UniversalDevicesInc-PG3/udi-poly-IFTTT-Webhooks/issues/3)
 - 3.0.0: 02/27/2022
   - First Release
