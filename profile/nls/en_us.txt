@@ -13,8 +13,14 @@ CST-1 = Connected
 CST-2 = Failed
 
 # controller
-ND-Maker1-NAME = IFTTT Maker1 Node
-ND-Maker1-ICON = GenericCtl
+ND-Webhook-NAME = IFTTT Webhook None Node
+ND-Webhook-ICON = Input
+ND-WebhookOn-NAME = IFTTT Webhook On Node
+ND-WebhookOn-ICON = Input
+ND-WebhookOff-NAME = IFTTT Webhook Off Node
+ND-WebhookOff-ICON = Input
+ND-WebhookOnOff-NAME = IFTTT Webhook On Off Node
+ND-WebhookOnOff-ICON = Input
 CMD-wh-QUERY-NAME = Query
 CMD-wh-DON-NAME = Trigger On Event
 CMD-wh-DOF-NAME = Trigger Off Event
