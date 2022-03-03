@@ -24,4 +24,5 @@ class Webhook(Base):
     ]
     commands = {
         'DON': cmd_set_on,
+        'DOF': cmd_set_off,
     }

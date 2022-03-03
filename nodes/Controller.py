@@ -128,6 +128,7 @@ class Controller(Node):
             self.poly.Notices['API Key'] = "Please add your IFTT Key https://ifttt.com/maker_webhooks/settings"
         else:
             # Assume it's good
+            self.poly.Notices.delete('API Key')
             self.params_valid = True
 
     def handler_typed_data(self, typed_data):
