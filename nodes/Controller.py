@@ -117,7 +117,7 @@ class Controller(Node):
 
         self.params_valid = False
 
-        if not "API Key" in params:
+        if params is None or not "API Key" in params:
             self.api_key = ""
             self.Params['API Key'] = self.api_key
             # Must exist because adding the key calls this method again...

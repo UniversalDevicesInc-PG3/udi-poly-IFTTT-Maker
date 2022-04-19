@@ -20,7 +20,7 @@
         {
             "title": "IFTTT-Webhooks: a NodeServer for ISY and IFTTT Webhooks Integration",
             "author": "JimBo.Automates",
-            "version": "3.0.1",
+            "version": "3.0.3",
             "date": "February 26, 2022",
             "source": "https://github.com/jimboca/udi-poly-kasa/tree/pg3",
             "license": "https://github.com/jimboca/udi-poly-kasa/blob/pg3/LICENSE"
